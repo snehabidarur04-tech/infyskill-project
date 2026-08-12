@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bills & Expenses · InfySkill Trainers Connect</title>
+<meta name="description" content="Review trainer expense bills for InfySkill Trainers Connect.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="bills">
+<a class="skip-link" href="#pageContent">Skip to content</a>
+<div class="app-shell" id="app-shell-root"></div>
+
+<script src="data/trainers.js"></script>
+<script src="data/colleges.js"></script>
+<script src="data/assignments.js"></script>
+<script src="data/invoices.js"></script>
+<script src="data/payments.js"></script>
+<script src="data/misc.js"></script>
+<script src="js/icons.js"></script>
+<script src="js/utils.js"></script>
+<script src="js/layout.js"></script>
+<script src="js/bills-expenses.js"></script>
+<script>
+  renderShell("bills");
+  renderBills();
+</script>
+</body>
+</html>
